@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CashManagement</string>
+    <string name="error_message_wrong_auth_data" translatable="false">wrong auth data</string>
+    <string name="error_message_terminal_not_signed" translatable="false">terminal not signed</string>
+    <string name="error_message_terminal_not_active" translatable="false">terminal not active</string>
+    <string name="error_message_account_not_active" translatable="false">account not active</string>
+    <string name="error_message_no_error" translatable="false">no error</string>
+    <string name="error_message_communication_error" translatable="false">communication error</string>
+    <string name="error_message_register_terminal_failed" translatable="false">register terminal failed</string>
+    <string name="error_message_unregister_terminal_failed" translatable="false">unregister terminal failed</string>
+    <string name="error_message_invalid_product_name" translatable="false">invalid product name</string>
+    <string name="error_message_invalid_communication_version" translatable="false">invalid communication version</string>
+    <string name="error_message_invalid_database_version" translatable="false">invalid database version</string>
+    <string name="error_message_invalid_username_or_password" translatable="false">invalid username or password</string>
+
+    <string name="text_build_date" translatable="false">Build Date : </string>
+    <string name="text_version">Version: </string>
+    <string name="scan_your_card">Please, scan your card</string>
+    <string name="back_office_cash_management">Back Office Cash Management</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_ip_address">IP Address</string>
+    <string name="hint_port">Port</string>
+    <string name="button_save_settings">SAVE SETTINGS</string>
+    <string name="login">LOGIN</string>
+    <string name="submit">SUBMIT</string>
+    <string name="successfully_logged">Successfully logged</string>
+    <string name="greeting">Hello, </string>
+    <string name="server_answer_null">"Server Answer is null"</string>
+    <string name="enter_password_hint">Password</string>
+    <string name="enter_your_password_below">Enter your password below:</string>
+    <string name="wrong_password">Wrong password!</string>
+    <string name="choose_language_title">Choose Language</string>
+    <string name="connection_status_ok">Connection status: OK</string>
+    <string name="connection_status_not_connected">NOT CONNECTED TO THE SERVER</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="button_submit">Submit</string>
+    <string name="wrong_password_status">Wrong password!</string>
+    <string name="warning">Warning</string>
+    <string name="set_1">SET 1</string>
+    <string name="set_2">SET 2</string>
+    <string name="custom_set">CUSTOM SET</string>
+    <string name="execute_payout">execute payout</string>
+    <string name="count">Count: </string>
+    <string name="error_enter_count">ENTER COUNT</string>
+    <string name="error_username_required">USERNAME REQUIRED</string>
+    <string name="error_password_required">PASSWORD REQUIRED</string>
+    <string name="error_ip_address_required">IP ADDRESS REQUIRED</string>
+    <string name="please_wait">Please wait</string>
+    <string name="settings_saved_successfully">Settings saved successfully!</string>
+    <string name="wrong_username_or_password">Wrong username or password</string>
+    <string name="start_pay_in">start pay in</string>
+    <string name="stop_pay_in">stop pay in</string>
+    <string name="get_inventory">coin inventory</string>
+    <string name="not_connected_to_server">Няма връзка със сървъра!</string>
+    <string name="inventory_info_title">Inventory information: </string>
+    <string name="back">back</string>
+    <string name="transaction_report_btn">Transactions report</string>
+    <string name="denomination_bon">Denomination: </string>
+    <string name="count_bon">Count: </string>
+    <string name="amount_bon">Amount paid: </string>
+    <string name="only_amount_bon">Amount: </string>
+    <string name="total_amount">Total amount: </string>
+    <string name="operator">Operator: </string>
+    <string name="hello">Hello, </string>
+    <string name="currency">Currency: </string>
+    <string name="succeed">SUCCEED</string>
+    <string name="failed">FAILED</string>
+    <string name="deposit">Deposit coins</string>
+    <string name="withdraw">withdraw coins</string>
+    <string name="cashIn">Cash In</string>
+    <string name="cashOut">Cash Out</string>
+    <string name="deposit_cash">Deposit cash</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="poscode">PosCode</string>
+    <string name="userType_title">User Type</string>
+    <string name="create_user_screen">CREATE OPERATOR </string>
+    <string name="last_name">Last Name</string>
+    <string name="reports">REPORTS</string>
+    <string name="select_operator">Select Operator</string>
+    <string name="no_header">No</string>
+    <string name="type_header">Type</string>
+    <string name="amount_header">Amount</string>
+    <string name="operator_header">Operator</string>
+    <string name="date_header">Date</string>
+    <string name="poscode_header">Poscode</string>
+    <string name="date_from_search_filter">From: </string>
+    <string name="date_to_search_filter">To: </string>
+    <string name="show_result_btn_search_filter">Show Result</string>
+    <string name="select_operator_spinner_item">Select Operator</string>
+    <string name="rec_view_user_report_id">ID</string>
+    <string name="rec_view_user_report_loginName">loginName</string>
+    <string name="rec_view_user_report_typeId">typeId</string>
+    <string name="rec_view_user_report_enabled">enabled</string>
+    <string name="rec_view_user_report_lastEdit">lastEdit</string>
+    <string name="rec_view_user_report_posCode">PosCode</string>
+    <string name="rec_view_user_report_expired">expired</string>
+    <string name="rec_view_user_report_fullName">fullName</string>
+    <string name="rec_view_user_report_header_id">ID</string>
+    <string name="rec_view_user_report_header_loginName">Login Name</string>
+    <string name="rec_view_user_report_header_typeId">Type ID</string>
+    <string name="rec_view_user_report_header_enabled">Enabled</string>
+    <string name="rec_view_user_report_header_lastEdit">Last Edit</string>
+    <string name="rec_view_user_report_header_posCode">PosCode</string>
+    <string name="rec_view_user_report_header_expired">Expired</string>
+    <string name="rec_view_user_report_header_fullName">Full Name</string>
+    <string name="administrator">Administrator</string>
+    <string name="manager_rec_view">Manager</string>
+    <string name="cashier">Cashier</string>
+    <string name="main_cashier">Main Cashier</string>
+    <string name="inkaso">Inkaso</string>
+    <string name="users_report_btn">Users Report</string>
+    <string name="select_transaction_type">Select Type</string>
+    <string name="btn_print">PRINT</string>
+    <string name="amount_bon_layout">Amount:</string>
+    <string name="operator_bon_layout">Operator:</string>
+    <string name="date_bon_layout">Date:</string>
+    <string name="transaction_report_bon_layout">Transaction Report</string>
+    <string name="tr_type_bon_layout">Type:</string>
+    <string name="total_amount_bon_layout">Total Amount:</string>
+    <string name="total_bon_layout">Total</string>
+    <string name="print_result_btn">PRINT RESULT</string>
+    <string name="btn_ok">ok</string>
+    <string name="nominal">Nominal</string>
+    <string name="tv_count">Count</string>
+    <string name="sum">Sum</string>
+    <string name="card">Card</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="cashOut_banknotes">cash out banknotes</string>
+    <string name="inventory_banknotes">Banknotes Inventory</string>
+    <string name="inventory_receipt">Inventory Receipt</string>
+    <string name="deposit_receipt">Deposit Receipt</string>
+    <string name="cash_out_receipt">Cash Out Receipt</string>
+    <string name="inventory_coins">Coin Inventory</string>
+    <string name="select_type">Select Type</string>
+    <string name="select_status">Select Status</string>
+    <string name="btn_deposit_all">Deposit</string>
+    <string name="btn_get_total_inventory">Total Inventory</string>
+    <string name="cashTypeBanknotes">Banknotes</string>
+    <string name="cashTypeCoins">Coins</string>
+    <string name="totalDepositSum">Total</string>
+    <string name="invalid_password">Invalid Password!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="would_you_like_to_deposit_coins">Would you like to deposit coins?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="please_deposit_banknotes">Please Deposit Banknotes...</string>
+    <string name="please_deposit_coins">Please Deposit Coins...</string>
+    <string name="finish">Finish</string>
+    <string name="user_enabled">Enabled</string>
+    <string name="user_disabled">Disabled</string>
+    <string name="select_user_type">Select Type</string>
+    <string name="select_user_status">Select Status</string>
+    <string name="user_successfuly_created">User successfully created</string>
+    <string name="deposit_coins">Deposit Coins</string>
+    <string name="tab_deposit">Deposit</string>
+    <string name="tab_cash_out">Cash Out</string>
+    <string name="tab_reports">Reports</string>
+    <string name="cash_bag_is_full_please_switch_it">Cash bag is full,please replace it!</string>
+
+
+</resources>

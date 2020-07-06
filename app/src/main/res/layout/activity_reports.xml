@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TransactionsReportScreen">
+
+
+    <LinearLayout
+        android:paddingTop="1dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout_search_filter"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_from_search_filter"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:paddingTop="1dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_select_date_from"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tv_back"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_to_search_filter"
+            android:layout_marginLeft="36dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tv_select_date_to"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/tv_back"
+            android:textAlignment="center"/>
+
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner_select_operator"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner_select_transaction_type"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/btnShowResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_result_btn_search_filter"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:background="@drawable/button_style"
+            android:shadowColor="@color/text_shadow"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_search_filter"
+        android:visibility="invisible"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:background="#e6fcff">
+
+
+
+        <TextView
+            android:id="@+id/tvNum"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/no_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginRight="40dp"/>
+
+        <TextView
+            android:id="@+id/tv_typeId"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tvNum"
+            android:maxLines="1"
+            android:text="@string/type_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginRight="40dp"/>
+
+        <TextView
+            android:id="@+id/text_view_amount"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_date"
+            android:text="@string/amount_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginRight="40dp"/>
+
+        <TextView
+            android:id="@+id/text_view_userID"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_amount"
+            android:text="@string/operator_header"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/text_view_date"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_typeId"
+            android:text="@string/date_header"
+            android:layout_marginRight="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_view_posCode"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_toRightOf="@id/text_view_userID"-->
+<!--            android:text="@string/poscode_header"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>-->
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="МОЛЯ ИЗБЕРЕТЕ ТЪРСЕНЕ"
+        android:textSize="45sp"
+        android:id="@+id/select_search"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_operator_report"
+        android:layout_above="@id/btnPrintTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnPrintTransactions"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:background="@drawable/button_style"
+        android:text="@string/btn_print"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="@color/text_shadow"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

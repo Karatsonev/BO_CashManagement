@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/ivCashBagAlert"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/exclamation_gif"
+                android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/alertMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivCashBagAlert"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:text="@string/cash_bag_is_full_please_switch_it"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/horizontalLine"
+        android:layout_width="400dp"
+        android:layout_height="3dp"
+        android:orientation="vertical"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/alertMessage"/>
+
+    <TextView
+        android:id="@+id/cahMachineAlertDialogOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horizontalLine"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="ОК"/>
+
+    <LinearLayout
+        android:id="@+id/horizontalLine2"
+        android:layout_width="400dp"
+        android:layout_height="3dp"
+        android:orientation="vertical"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/cahMachineAlertDialogOk"/>
+
+</RelativeLayout>

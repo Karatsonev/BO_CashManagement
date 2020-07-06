@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.PayOutScreen"
+        android:background="@drawable/bgbg">
+
+        <Button
+            android:id="@+id/btnSet1"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/set_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:background="@drawable/white_rounded_button"/>
+
+        <Button
+            android:id="@+id/btnSet2"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/set_2"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btnSet1"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:background="@drawable/white_rounded_button"/>
+
+        <Button
+            android:id="@+id/btnCustomSet"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/custom_set"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btnSet2"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:background="@drawable/white_rounded_button"/>
+
+    </RelativeLayout>
+</layout>

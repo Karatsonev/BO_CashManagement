@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CashManagement</string>
+    <string name="error_message_wrong_auth_data" translatable="false">wrong auth data</string>
+    <string name="error_message_terminal_not_signed" translatable="false">terminal not signed</string>
+    <string name="error_message_terminal_not_active" translatable="false">terminal not active</string>
+    <string name="error_message_account_not_active" translatable="false">account not active</string>
+    <string name="error_message_no_error" translatable="false">no error</string>
+    <string name="error_message_communication_error" translatable="false">communication error</string>
+    <string name="error_message_register_terminal_failed" translatable="false">register terminal failed</string>
+    <string name="error_message_unregister_terminal_failed" translatable="false">unregister terminal failed</string>
+    <string name="error_message_invalid_product_name" translatable="false">invalid product name</string>
+    <string name="error_message_invalid_communication_version" translatable="false">invalid communication version</string>
+    <string name="error_message_invalid_database_version" translatable="false">invalid database version</string>
+    <string name="error_message_invalid_username_or_password" translatable="false">Невалидна парола!</string>
+
+    <string name="text_build_date" translatable="false">Build Date : </string>
+    <string name="text_version">Version: </string>
+    <string name="scan_your_card">Моля, сканирайте вашата карта</string>
+    <string name="back_office_cash_management">Back Office Cash Management</string>
+    <string name="hint_username">Име</string>
+    <string name="hint_password">Парола</string>
+    <string name="hint_ip_address">IP Адрес</string>
+    <string name="hint_port">Порт</string>
+    <string name="button_save_settings">ЗАПАЗИ НАСТРОЙКИТЕ</string>
+    <string name="login">Напред</string>
+    <string name="submit">ПОТВЪРДИ</string>
+    <string name="successfully_logged">Успешна операция</string>
+    <string name="greeting">Здравей, </string>
+    <string name="server_answer_null">"Server Answer is null"</string>
+    <string name="enter_password_hint">Парола</string>
+    <string name="enter_your_password_below">Моля, въведете парола:</string>
+    <string name="wrong_password">Грешна парола!</string>
+    <string name="choose_language_title">Изберете език</string>
+    <string name="connection_status_ok">Статус: СВЪРЗАН</string>
+    <string name="connection_status_not_connected">УСТРОЙСТВОТО НЯМА ВРЪЗКА СЪС СЪРВЪРА</string>
+    <string name="btn_cancel">ОТКАЖИ</string>
+    <string name="button_submit">ПОТВЪРДИ</string>
+    <string name="wrong_password_status">Грешна парола!</string>
+    <string name="warning">Внимание</string>
+    <string name="set_1">СЕТ 1</string>
+    <string name="set_2">СЕТ 2</string>
+    <string name="custom_set">СЕТ ПО ИЗБОР</string>
+    <string name="execute_payout">ИЗПЪЛНИ ТЕГЛЕНЕ</string>
+    <string name="count">Count: </string>
+    <string name="error_enter_count">ВЪВЕДИ БРОЙ</string>
+    <string name="error_username_required">ВЪВЕДИ ПАРОЛА</string>
+    <string name="error_password_required">ВЪВЕДИ ПАРОЛА</string>
+    <string name="error_ip_address_required">ВЪВЕДИ IP АДРЕС</string>
+    <string name="please_wait">Моля изчакайте</string>
+    <string name="settings_saved_successfully">Настройките бяха успешно запазени!</string>
+    <string name="wrong_username_or_password">Невалидно потрбителско име или парола!</string>
+    <string name="start_pay_in">изпълни депозиране</string>
+    <string name="stop_pay_in">завърши депозиране</string>
+    <string name="get_inventory">наличност монети</string>
+    <string name="not_connected_to_server">Not connected to the server!</string>
+    <string name="inventory_info_title">Наличност:</string>
+    <string name="back">назад</string>
+    <string name="transaction_report_btn">Справка транзакции</string>
+    <string name="denomination_bon">Номинал</string>
+    <string name="count_bon">Брой </string>
+    <string name="amount_bon">Обшо: </string>
+    <string name="only_amount_bon">Стойност: </string>
+    <string name="total_amount">Обща сума: </string>
+    <string name="operator">Оператор: </string>
+    <string name="currency">Валута: </string>
+    <string name="hello">Здравей, </string>
+    <string name="succeed">УСПЕШНО</string>
+    <string name="failed">НЕУСПЕШНО</string>
+    <string name="deposit">Депозирай монети</string>
+    <string name="withdraw">Изтегли монети</string>
+    <string name="cashIn">Депозиране</string>
+    <string name="cashOut">Теглене</string>
+    <string name="deposit_cash">Депозирай банкноти</string>
+    <string name="repeat_password">Повтори парола</string>
+    <string name="poscode">PosCode</string>
+    <string name="userType_title">Тип оператор</string>
+    <string name="create_user_screen">СЪЗДАВАНЕ НА ОПЕРАТОР</string>
+    <string name="last_name">Фамилия</string>
+    <string name="reports">СПРАВКИ</string>
+    <string name="select_operator">Избери Оператор</string>
+    <string name="no_header">Ном.</string>
+    <string name="type_header">Тип</string>
+    <string name="amount_header">Стойност</string>
+    <string name="operator_header">Оператор</string>
+    <string name="date_header">Дата</string>
+    <string name="poscode_header">Poscode</string>
+    <string name="date_from_search_filter">От: </string>
+    <string name="date_to_search_filter">До: </string>
+    <string name="show_result_btn_search_filter">Търси</string>
+    <string name="select_operator_spinner_item">Избери Оператор</string>
+    <string name="rec_view_user_report_id">ID</string>
+    <string name="rec_view_user_report_loginName">Потребителско име</string>
+    <string name="rec_view_user_report_typeId">Тип</string>
+    <string name="rec_view_user_report_enabled">Активен</string>
+    <string name="rec_view_user_report_lastEdit">Редактиран</string>
+    <string name="rec_view_user_report_posCode">PosCode</string>
+    <string name="rec_view_user_report_expired">Просрочен</string>
+    <string name="rec_view_user_report_fullName">Име</string>
+    <string name="rec_view_user_report_header_id">ID</string>
+    <string name="rec_view_user_report_header_loginName">Потребителско име</string>
+    <string name="rec_view_user_report_header_typeId">Тип</string>
+    <string name="rec_view_user_report_header_enabled">Активен</string>
+    <string name="rec_view_user_report_header_lastEdit">Редактиран</string>
+    <string name="rec_view_user_report_header_posCode">PosCode</string>
+    <string name="rec_view_user_report_header_expired">Просрочен</string>
+    <string name="rec_view_user_report_header_fullName">Име</string>
+    <string name="administrator">Администратор</string>
+    <string name="manager_rec_view">Мениджър</string>
+    <string name="cashier">Касиер</string>
+    <string name="main_cashier">Главен Касиер</string>
+    <string name="inkaso">Инкасо</string>
+    <string name="users_report_btn">Справка потребители</string>
+    <string name="select_transaction_type">Избери Тип</string>
+    <string name="btn_print">Разпечатай</string>
+    <string name="amount_bon_layout">Сума:</string>
+    <string name="operator_bon_layout">Оператор:</string>
+    <string name="date_bon_layout">Дата:</string>
+    <string name="transaction_report_bon_layout">Справка за транзакции</string>
+    <string name="tr_type_bon_layout">Тип:</string>
+    <string name="total_amount_bon_layout">Обща сума:</string>
+    <string name="total_bon_layout">Обща сума: </string>
+    <string name="btn_ok">ok</string>
+    <string name="print_result_btn">Разпечатай</string>
+    <string name="nominal">Номинал</string>
+    <string name="tv_count">Брой</string>
+    <string name="sum">Сума</string>
+    <string name="card">Карта</string>
+    <string name="phone">Телефон</string>
+    <string name="email">Имейл</string>
+    <string name="cashOut_banknotes">Изтегли банкноти</string>
+    <string name="inventory_banknotes">Наличност банкноти</string>
+    <string name="inventory_receipt">Наличност</string>
+    <string name="deposit_receipt">Депозит</string>
+    <string name="cash_out_receipt">Теглене</string>
+    <string name="inventory_coins">Наличност монети</string>
+    <string name="select_type">Тип Оператор</string>
+    <string name="select_status">Статус</string>
+    <string name="btn_deposit_all">Депозирай</string>
+    <string name="btn_get_total_inventory">Обща наличност</string>
+    <string name="cashTypeBanknotes">Банкноти</string>
+    <string name="cashTypeCoins">Монети</string>
+    <string name="totalDepositSum">Тотал</string>
+    <string name="invalid_password">Грешна парола!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="would_you_like_to_deposit_coins">Желаете ли да депозирате монети?</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="please_deposit_banknotes">Моля, депозирайте банкноти...</string>
+    <string name="please_deposit_coins">Моля, депозирайте монети... </string>
+    <string name="finish">Завърши депозиране</string>
+    <string name="user_enabled">Активен</string>
+    <string name="user_disabled">Неактивен</string>
+    <string name="select_user_type">Избери Тип</string>
+    <string name="select_user_status">Избери Статус</string>
+    <string name="user_successfuly_created">Успешно създаден потребител</string>
+    <string name="deposit_coins">Депозирай монети</string>
+    <string name="tab_deposit">Депозиране</string>
+    <string name="tab_cash_out">Теглене</string>
+    <string name="tab_reports">Справки</string>
+    <string name="cash_bag_is_full_please_switch_it">Моля, сменете торбата за пари!</string>
+
+
+</resources>

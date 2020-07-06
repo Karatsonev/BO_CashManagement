@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CreateUserScreen"
+    android:orientation="vertical"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="100dp"
+    android:layout_marginBottom="30dp"
+    android:gravity="center">
+
+<!--title-->
+    <TextView
+        android:id="@+id/tv_create_user_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_user_screen"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"/>
+
+<!--columns-->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+
+        <!--left col-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_loginName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_loginName_create_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_username"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_fullName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_fullName_create_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/last_name" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_password_create_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:textAlignment="center" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_repeat_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_repeat_password_create_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/repeat_password" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner_enabled_create_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:prompt="@string/select_status"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+        <!--right col-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_posCode"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_posCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/poscode"
+                    android:inputType="number"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_card"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_card_create_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/card"
+                    android:inputType="number"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_phone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_phone_create_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/phone"
+                    android:inputType="number"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/blue"
+                app:errorEnabled="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="12dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/et_email_create_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner_userType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/userType_title"
+                android:padding="25dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<!--buttons-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btn_create_operator"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/create_user_screen"
+                android:background="@drawable/button_style"
+                android:textColor="@color/white"
+                android:layout_marginRight="30dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"/>
+
+            <Button
+                android:id="@+id/btn_back_from_creating_operator"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:background="@drawable/button_style"
+                android:textColor="@color/white"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

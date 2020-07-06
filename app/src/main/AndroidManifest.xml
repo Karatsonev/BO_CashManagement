@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cashmanagement">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.nfc" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.UsersReportScreen"
+            android:parentActivityName=".ui.CashierScreen">
+        </activity>
+        <activity android:name=".ui.TransactionsReportScreen" />
+        <activity android:name=".ui.CreateUserScreen" />
+        <activity android:name=".ui.TransactionHistoryScreen" />
+        <activity android:name=".ui.SetScreen" />
+        <activity android:name=".ui.CustomPayoutScreen" />
+        <activity android:name=".ui.PayInScreen" />
+        <activity android:name=".ui.PayOutScreen" />
+        <activity android:name=".ui.CashierScreen" />
+        <activity android:name=".ui.InkasoScreen" />
+        <activity android:name=".ui.CoolActivity"/>
+        <activity android:name=".ui.SettingsScreen" />
+        <activity android:name=".ui.LoginScreen" />
+        <activity android:name=".ui.LaunchScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

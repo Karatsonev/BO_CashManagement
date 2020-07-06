@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.FragmentReports"
+    android:background="@drawable/bgbg">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+<!--INVENTORY-->
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center_horizontal">
+           <android.support.v7.widget.CardView
+               android:layout_width="240dp"
+               android:layout_height="240dp"
+               app:cardElevation="10dp"
+               android:layout_margin="30dp"
+               app:cardCornerRadius="15dp"
+               android:id="@+id/cardViewInventoryBanknotes">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:src="@drawable/cash"
+                       android:id="@+id/iv_inventory_banknotes"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/inventory_banknotes"
+                       android:id="@+id/tvInventoryBanknotes"
+                       android:textSize="20sp"
+                       android:layout_centerHorizontal="true"
+                       android:layout_centerVertical="true"
+                       android:layout_below="@id/iv_inventory_banknotes"/>
+
+
+
+               </RelativeLayout>
+
+
+           </android.support.v7.widget.CardView
+               >
+
+           <android.support.v7.widget.CardView
+               android:layout_width="240dp"
+               android:layout_height="240dp"
+               app:cardElevation="10dp"
+               android:layout_margin="30dp"
+               app:cardCornerRadius="15dp"
+               android:id="@+id/cardViewInventoryCoins">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:src="@drawable/coins"
+                       android:id="@+id/iv_inventory_coins"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/inventory_coins"
+                       android:id="@+id/tvInventoryCoins"
+                       android:textSize="20sp"
+                       android:layout_centerHorizontal="true"
+                       android:layout_centerVertical="true"
+                       android:layout_below="@id/iv_inventory_coins"/>
+
+
+
+               </RelativeLayout>
+
+
+           </android.support.v7.widget.CardView
+               >
+
+           <android.support.v7.widget.CardView
+               android:layout_width="240dp"
+               android:layout_height="240dp"
+               app:cardElevation="10dp"
+               android:layout_margin="30dp"
+               app:cardCornerRadius="15dp"
+               android:id="@+id/cardViewInventoryTotal">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:src="@drawable/allcash"
+                       android:id="@+id/iv_inventory_total"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/btn_get_total_inventory"
+                       android:id="@+id/tvInventoryTotal"
+                       android:textSize="20sp"
+                       android:layout_centerHorizontal="true"
+                       android:layout_centerVertical="true"
+                       android:layout_below="@id/iv_inventory_total"/>
+
+
+
+               </RelativeLayout>
+
+
+           </android.support.v7.widget.CardView>
+
+       </LinearLayout>
+
+<!--REPORTS-->
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center_horizontal">
+
+           <android.support.v7.widget.CardView
+               android:layout_width="240dp"
+               android:layout_height="240dp"
+               app:cardElevation="10dp"
+               android:layout_margin="30dp"
+               app:cardCornerRadius="15dp"
+               android:id="@+id/cardViewUsersReport">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:src="@drawable/users_tr"
+                       android:id="@+id/iv_users_report"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/users_report_btn"
+                       android:id="@+id/tvUsersReport"
+                       android:textSize="20sp"
+                       android:layout_centerHorizontal="true"
+                       android:layout_centerVertical="true"
+                       android:layout_below="@id/iv_users_report"/>
+
+
+
+               </RelativeLayout>
+
+
+           </android.support.v7.widget.CardView
+               >
+
+           <android.support.v7.widget.CardView
+               android:layout_width="240dp"
+               android:layout_height="240dp"
+               app:cardElevation="10dp"
+               android:layout_margin="30dp"
+               app:cardCornerRadius="15dp"
+               android:id="@+id/cardViewTransactionsReport">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:src="@drawable/transactions"
+                       android:id="@+id/iv_transactions_report"
+                       />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/transaction_report_btn"
+                       android:id="@+id/tvTransactionsReport"
+                       android:textSize="20sp"
+                       android:layout_centerHorizontal="true"
+                       android:layout_centerVertical="true"
+                       android:layout_below="@id/iv_transactions_report"/>
+
+
+
+               </RelativeLayout>
+
+
+           </android.support.v7.widget.CardView>
+
+
+       </LinearLayout>
+
+
+
+
+
+   </LinearLayout>
+
+</FrameLayout>

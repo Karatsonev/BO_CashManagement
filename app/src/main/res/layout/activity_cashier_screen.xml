@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <data>
+
+        </data>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.CashierScreen"
+            android:background="@drawable/gradient_wow"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="20dp">
+
+
+
+                        <Button
+                            android:id="@+id/btnPayInCashier"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/deposit"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"/>
+
+                        <Button
+                            android:id="@+id/btnDepositCash"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/deposit_cash"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                          />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="20dp">
+
+                        <Button
+                            android:id="@+id/btnPayOutCashier"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/withdraw"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"/>
+
+                        <Button
+                            android:id="@+id/btn_cashOut_banknotes"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/cashOut_banknotes"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="20dp">
+
+
+                        <Button
+                            android:id="@+id/btnGetInventory"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/get_inventory"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"/>
+
+                        <Button
+                            android:id="@+id/btnGetInventoryBanknotes"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/inventory_banknotes"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center_horizontal"
+                  android:layout_marginBottom="20dp">
+
+                      <Button
+                          android:id="@+id/btnTransactionHistory"
+                          android:layout_width="300dp"
+                          android:layout_height="100dp"
+                          android:background="@drawable/white_rounded_button"
+                          android:text="@string/transaction_report_btn"
+                          android:textSize="30sp"
+                          android:textStyle="bold"
+                          android:layout_marginRight="20dp"
+                          android:layout_marginLeft="20dp"/>
+
+
+                      <Button
+                          android:id="@+id/btn_TEST"
+                          android:layout_width="300dp"
+                          android:layout_height="100dp"
+                          android:background="@drawable/white_rounded_button"
+                          android:text="@string/users_report_btn"
+                          android:textSize="30sp"
+                          android:textStyle="bold"/>
+
+              </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="20dp">
+
+                        <Button
+                            android:id="@+id/btnDepositAll"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/btn_deposit_all"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"/>
+
+
+                        <Button
+                            android:id="@+id/btnGetTotalInventory"
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/white_rounded_button"
+                            android:text="@string/btn_get_total_inventory"
+                            android:textSize="30sp"
+                            android:textStyle="bold"/>
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+</layout>

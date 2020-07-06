@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgbg">
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_view_set"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        tools:listitem="@layout/recycler_view_set_item">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button_go2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/white_rounded_button"
+        android:text="@string/execute_payout"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="60dp"/>
+
+</RelativeLayout>
